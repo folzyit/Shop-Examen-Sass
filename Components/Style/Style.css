@@ -1,0 +1,1598 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a, ul, ol {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Integral CF", sans-serif;
+}
+
+.header {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.header .containerSign {
+  display: flex;
+  margin: 0;
+  padding: 9px 0px 10px 544px;
+  background-color: #000000;
+}
+.header .containerSign .porogSign {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.header .containerSign .porogSign .spanSign {
+  margin: 0;
+  padding: 0;
+}
+.header .containerSign .porogSign .spanSign .linkSign {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.9px;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #FFFFFF;
+}
+.header .containerSign .btnSign {
+  margin: 0px 0px 0px 425px;
+  padding: 0;
+  background-color: #000000;
+  border: none;
+}
+.header .containerSign .btnSign .logo_x {
+  margin: 0;
+  padding: 0;
+}
+.header .containerSign .btnSign:hover {
+  background-color: #525252;
+}
+.header .containerSign .btnSign:active {
+  background-color: #000000;
+}
+.header .containerHeader {
+  margin: 0;
+  padding: 0;
+}
+.header .containerHeader .NavBarShop {
+  margin: 0;
+  padding: 24px 0px;
+}
+.header .containerHeader .NavBarShop .navBar {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+.header .containerHeader .NavBarShop .navBar .navBurger {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+.header .containerHeader .NavBarShop .navBar .iconShopNav {
+  margin: 0;
+  padding: 0;
+}
+.header .containerHeader .NavBarShop .navBar .iconShopNav .linkShopIcon {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  text-align: left;
+  color: #000000;
+}
+.header .containerHeader .NavBarShop .navBar .menuNav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.header .containerHeader .NavBarShop .navBar .menuNav .shop {
+  margin: 0px 0px 7px 40px;
+  padding: 0;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+.header .containerHeader .NavBarShop .navBar .menuNav .linksShopNav {
+  display: flex;
+  margin: 0;
+  padding: 11px 0px 0px 24px;
+  gap: 24px;
+}
+.header .containerHeader .NavBarShop .navBar .menuNav .linksShopNav .linkShopFour {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+.header .containerHeader .NavBarShop .navBar .searchNav {
+  margin: 0;
+  padding: 0px 0px 0px 40px;
+}
+.header .containerHeader .NavBarShop .navBar .searchNav .spanNavShop {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.header .containerHeader .NavBarShop .navBar .searchNav .spanNavShop .logoSearch {
+  margin: 0;
+  padding: 10px 12px 12px 16px;
+  position: absolute;
+}
+.header .containerHeader .NavBarShop .navBar .searchNav .spanNavShop .logoSearchResponsiv {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+.header .containerHeader .NavBarShop .navBar .searchNav .spanNavShop .inputNavShop {
+  margin: 0;
+  padding: 12px 374px 14px 52px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.4);
+  border-radius: 62px;
+  border: none;
+  background-color: #F0F0F0;
+}
+.header .containerHeader .NavBarShop .navBar .iconsNav {
+  margin: 0;
+  padding: 10px 0px 0px 10px;
+}
+
+.main {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.main .containerMain {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .clothes {
+  position: relative;
+  background: url("/Components/Images/Rectangle 2.png");
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 103px 0px 116px 100px;
+  background-color: #000000;
+}
+.main .containerMain .clothes .contentClothes {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .clothes .contentClothes .sarlovClothes {
+  margin: 0;
+  padding: 0;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 64px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .clothes .contentClothes .porogClothes {
+  margin: 0;
+  padding: 32px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+.main .containerMain .clothes .contentClothes .btnClothes {
+  margin: 0;
+  padding: 15px 67px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.6px;
+  text-align: left;
+  color: #FFFFFF;
+  background-color: #000000;
+  border-radius: 62px;
+  border: none;
+}
+.main .containerMain .clothes .contentClothes .btnClothes:hover {
+  background-color: #2e2d2d;
+  color: #FFFFFF;
+}
+.main .containerMain .clothes .contentClothes .btnClothes:active {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid #000000;
+}
+.main .containerMain .clothes .manyClothers {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 48px 0px 0px 0px;
+}
+.main .containerMain .clothes .manyClothers .clothesOne {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .clothes .manyClothers .clothesOne .boldClothesBox {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .clothes .manyClothers .clothesOne .porogClothesBox {
+  margin: 0;
+  padding: 0px 32px 0px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.4);
+}
+.main .containerMain .clothes .manyClothers .clothesTwo {
+  margin: 0;
+  padding: 0 32px;
+}
+.main .containerMain .clothes .manyClothers .clothesTwo .boldClothesBoxTwo {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .clothes .manyClothers .clothesTwo .porogClothesBoxTwo {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.4);
+}
+.main .containerMain .clothes .manyClothers .clothesThree {
+  margin: 0;
+  padding: 0px 0px 0px 32px;
+}
+.main .containerMain .clothes .manyClothers .clothesThree .boldClothesBox {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .clothes .manyClothers .clothesThree .porogClothesBox {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.4);
+}
+.main .containerMain .clothes .innerClothes {
+  position: absolute;
+  margin: 0;
+  padding: 0px 0px 0px 650px;
+  z-index: 1;
+}
+.main .containerMain .clothes .innerClothes .logoStarOne {
+  margin: 0;
+  padding: 215px 0px 0px 0px;
+}
+.main .containerMain .clothes .innerClothes .logoStarTwo {
+  margin: 0;
+  padding: 0px 0px 170px 449px;
+}
+.main .containerMain .clothes .containerImageResponsiv {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .clothes .containerImageResponsiv .innerImageResponsiv {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .clothes .containerImageResponsiv .imageResponsivHuman {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .brends {
+  margin: 0;
+  padding: 30px 102px 42px 100px;
+  background-color: #000000;
+}
+.main .containerMain .brends .imgaesBrends {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.main .containerMain .brends .imgaesBrends .versace {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .brends .imgaesBrends .zara {
+  margin: 0;
+  padding: 0px 0px 0px 100px;
+}
+.main .containerMain .brends .imgaesBrends .gucci {
+  margin: 0;
+  padding: 0px 0px 0px 100px;
+}
+.main .containerMain .brends .imgaesBrends .prada {
+  margin: 0;
+  padding: 0px 0px 0px 100px;
+}
+.main .containerMain .brends .imgaesBrends .kalvin {
+  margin: 0;
+  padding: 0px 0px 0px 100px;
+}
+.main .containerMain .arrivals {
+  margin: 0;
+  padding: 0px 0px 64px 0px;
+}
+.main .containerMain .arrivals .innerArrivals {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .arrivals .innerArrivals .ContentArrivals {
+  margin: 0;
+  padding: 72px 0px 0px 0px;
+  text-align: center;
+}
+.main .containerMain .arrivals .innerArrivals .ContentArrivals .boldArrivals {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 57.6px;
+  text-align: center;
+  color: #000000;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 55px 0px 0px 0px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxOne {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxOne .imageArrivalsBoxOne {
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxOne .porogBoxArrivalsOne {
+  margin: 0;
+  padding: 16px 70px 8px 0px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxOne .innerBoxArrivalsOne_stars {
+  display: flex;
+  margin: 0;
+  padding: 0px 0px 8px 0px;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxOne .innerBoxArrivalsOne_stars .porogInnerBox {
+  margin: 0;
+  padding: 1px 0px 0px 13px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxOne .innerBoxArrivalsOne_stars .spanInnerBoxArrivals {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #525252;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxOne .boldBoxArrivalsOne {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.4px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxTwo {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxTwo .imageArrivalsBoxTwo {
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxTwo .porogBoxArrivalsTwo {
+  margin: 0;
+  padding: 16px 145px 8px 0px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxTwo .innerBoxArrivalsTwo_stars {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxTwo .innerBoxArrivalsTwo_stars .logoStarsTwo {
+  margin: 0;
+  padding: 0px 13px 8px 0px;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxTwo .innerBoxArrivalsTwo_stars .porogInnerBox {
+  margin: 0;
+  padding: 1px 0px 0px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxTwo .innerBoxArrivalsTwo_stars .porogInnerBox .spanArrivalsInnerBox {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #525252;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxTwo .innerBoxArrivalsResultOne {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxTwo .innerBoxArrivalsResultOne .boldResultInnerOne {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.4px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxTwo .innerBoxArrivalsResultOne .porogResultInnerTwo {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.4px;
+  text-align: left;
+  text-decoration-line: line-through;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: rgba(0, 0, 0, 0.4);
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxTwo .innerBoxArrivalsResultOne .porogResultInnerThree {
+  align-items: center;
+  margin: 2px 0px 0px 0px;
+  padding: 6px 13px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  text-align: left;
+  color: #FF3333;
+  border-radius: 62px;
+  background-color: rgba(255, 51, 51, 0.1019607843);
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxThree {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxThree .imageArrivalsBoxThree {
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxThree .porogBoxArrivalsThree {
+  margin: 0;
+  padding: 16px 144px 8px 0px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxThree .innerBoxArrivalsThree_stars {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxThree .innerBoxArrivalsThree_stars .logoStarsThree {
+  margin: 0;
+  padding: 0px 13px 8px 0px;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxThree .innerBoxArrivalsThree_stars .porogInnerBox {
+  margin: 0;
+  padding: 1px 0px 0px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxThree .innerBoxArrivalsThree_stars .porogInnerBox .spanBoxArrivalsThree {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #525252;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxThree .boldBoxThreeArrivals {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.4px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxFour {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxFour .imageArrivalsBoxFour {
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxFour .porogBoxArrivalsFour {
+  margin: 0;
+  padding: 16px 96px 8px 0px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxFour .innerBoxArrivalsFour_stars {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxFour .innerBoxArrivalsFour_stars .logoStarsFour {
+  margin: 0;
+  padding: 0px 13px 8px 0px;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxFour .innerBoxArrivalsFour_stars .porogInnerBox {
+  margin: 0;
+  padding: 1px 0px 0px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxFour .innerBoxArrivalsFour_stars .porogInnerBox .spanArrivalsBoxFour {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #525252;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxFour .innerBoxResultFour {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxFour .innerBoxResultFour .porogResultInnerOne {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.4px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxFour .innerBoxResultFour .porogResultInnerTwo {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.4px;
+  text-align: left;
+  text-decoration-line: line-through;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: rgba(0, 0, 0, 0.4);
+}
+.main .containerMain .arrivals .innerArrivals .boxesArrivals .boxFour .innerBoxResultFour .porogResultInnerThree {
+  margin: 2px 0px 0px 0px;
+  padding: 6px 13px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  text-align: left;
+  color: #FF3333;
+  background-color: rgba(255, 51, 51, 0.1019607843);
+  border-radius: 62px;
+}
+.main .containerMain .arrivals .innerArrivals .btnArrivalsContainer {
+  text-align: center;
+  margin: 0;
+  padding: 36px 0px 0px 0px;
+}
+.main .containerMain .arrivals .innerArrivals .btnArrivalsContainer .innerContainerBTN {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .arrivals .innerArrivals .btnArrivalsContainer .innerContainerBTN .btnArrivals {
+  margin: 0;
+  padding: 15px 80px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.6px;
+  text-align: left;
+  color: #000000;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  border-radius: 62px;
+  background-color: white;
+}
+.main .containerMain .arrivals .innerArrivals .btnArrivalsContainer .innerContainerBTN .btnArrivals:hover {
+  background-color: rgb(226, 217, 217);
+  color: #000000;
+}
+.main .containerMain .arrivals .innerArrivals .btnArrivalsContainer .innerContainerBTN .btnArrivals:active {
+  background-color: #000000;
+  color: white;
+}
+.main .containerMain .containerLine {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.main .containerMain .containerLine .lineArrivals {
+  width: 1240px;
+  margin: 0px 0px 64px 0px;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+.main .containerMain .sell {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .sell .innerContainerCell {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .sell .innerContainerCell .contentSell {
+  margin: 0;
+  padding: 0px 0px 55px 0px;
+  text-align: center;
+}
+.main .containerMain .sell .innerContainerCell .contentSell .boldSellContent {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 57.6px;
+  text-align: center;
+  color: #000000;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellOne {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellOne .imageSellBoxOne {
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellOne .porogBoxOneSell {
+  margin: 0;
+  padding: 16px 101px 8px 0px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellOne .innerBoxOneSell {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellOne .innerBoxOneSell .iconStars {
+  margin: 0;
+  padding: 0px 0px 8px 0px;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellOne .innerBoxOneSell .poroInnerBoxOne_sell {
+  margin: 0;
+  padding: 2px 0px 0px 13px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellOne .innerBoxOneSell .poroInnerBoxOne_sell .spanInnerPorogBoxSell {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #525252;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellOne .innerBoxSellResults {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellOne .innerBoxSellResults .boldInnerResultOne {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.4px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellOne .innerBoxSellResults .porogInnerResultTwo {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.4px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.4);
+  text-decoration-line: line-through;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellOne .innerBoxSellResults .porogInnerResultThree {
+  margin: 1px 0px 0px 0px;
+  padding: 6px 14px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.2px;
+  text-align: left;
+  color: #FF3333;
+  background-color: rgba(255, 51, 51, 0.1019607843);
+  border-radius: 62px;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellTwo {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellTwo .imageBoxTwoSell {
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellTwo .porogBoxTwoSell {
+  margin: 0;
+  padding: 16px 69px 8px 0px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellTwo .innerBoxTwoSell {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellTwo .innerBoxTwoSell .iconStars {
+  margin: 0;
+  padding: 0px 13px 8px 0px;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellTwo .innerBoxTwoSell .porogInnerBoxTwoSell {
+  margin: 0;
+  padding: 1px 0px 0px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellTwo .innerBoxTwoSell .porogInnerBoxTwoSell .spanBoxTwoInnerSell {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #525252;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellTwo .boldBoxTwoSell {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.4px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellThree {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellThree .imageBoxThreeSell {
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellThree .porogBoxThreeSell {
+  margin: 0;
+  padding: 16px 56px 8px 0px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellThree .innerBoxThreeSell {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellThree .innerBoxThreeSell .iconStars {
+  margin: 0;
+  padding: 0px 13px 8px 0px;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellThree .innerBoxThreeSell .porogInnerBoxThreeSell {
+  margin: 0;
+  padding: 1px 0px 0px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellThree .innerBoxThreeSell .porogInnerBoxThreeSell .spanBoxThreeInnerSell {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #525252;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellThree .boldBoxThreeSell {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.4px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellFour {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellFour .imageBoxTwoSell {
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellFour .porogBoxTwoSell {
+  margin: 0;
+  padding: 16px 110px 8px 0px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellFour .innerBoxTwoSell {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellFour .innerBoxTwoSell .iconStars {
+  margin: 0;
+  padding: 0px 13px 8px 0px;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellFour .innerBoxTwoSell .porogInnerBoxTwoSell {
+  margin: 0;
+  padding: 1px 0px 0px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellFour .innerBoxTwoSell .porogInnerBoxTwoSell .spanBoxTwoInnerSell {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: #525252;
+}
+.main .containerMain .sell .innerContainerCell .boxesSell .boxSellFour .boldBoxTwoSell {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.4px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .sell .innerContainerCell .btnSell {
+  text-align: center;
+  margin: 0;
+  padding: 36px 0px 0px 0px;
+}
+.main .containerMain .sell .innerContainerCell .btnSell .btnSelling {
+  margin: 0;
+  padding: 15px 80px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.6px;
+  text-align: left;
+  color: #000000;
+  border-radius: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+.main .containerMain .sell .innerContainerCell .btnSell .btnSelling:hover {
+  background-color: rgb(226, 217, 217);
+  color: #000000;
+}
+.main .containerMain .sell .innerContainerCell .btnSell .btnSelling:active {
+  background-color: #000000;
+  color: white;
+}
+.main .containerMain .dress {
+  margin: 0;
+  padding: 80px 0px 80px 0px;
+}
+.main .containerMain .dress .innerContainerDress {
+  margin: 0;
+  padding: 0;
+  background-color: #F0F0F0;
+  border-radius: 40px;
+}
+.main .containerMain .dress .innerContainerDress .contentDress {
+  text-align: center;
+  margin: 0;
+  padding: 70px 0px 64px 0px;
+}
+.main .containerMain .dress .innerContainerDress .contentDress .boldContentDress {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: center;
+  color: #000000;
+}
+.main .containerMain .dress .innerContainerDress .boxesUp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 31px;
+}
+.main .containerMain .dress .innerContainerDress .boxesUp .boxOneDress {
+  background: url("/Components/Images/image 11.png");
+  margin: 0;
+  padding: 25px 251px 211px 36px;
+  background-color: white;
+  border-radius: 20px;
+}
+.main .containerMain .dress .innerContainerDress .boxesUp .boxOneDress .porogBoxOneDress {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48.6px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .dress .innerContainerDress .boxesUp .boxTwoDress {
+  display: flex;
+  margin: 0;
+  padding: 0px 0px 0px 0px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
+.main .containerMain .dress .innerContainerDress .boxesUp .boxTwoDress .porogBoxTwoDress {
+  position: absolute;
+  margin: 0;
+  padding: 25px 0px 0px 36px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48.6px;
+  text-align: left;
+  color: #000000;
+  z-index: 1;
+}
+.main .containerMain .dress .innerContainerDress .boxesUp .boxTwoDress .imageFormalDress {
+  position: relative;
+  margin: 0;
+  padding: 0px 0px 0px 39px;
+  border-radius: 20px;
+}
+.main .containerMain .dress .innerContainerDress .boxesDown {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px 0px 76px 0px;
+  gap: 31px;
+}
+.main .containerMain .dress .innerContainerDress .boxesDown .boxThreeDress {
+  display: flex;
+  margin: 0;
+  padding: 0px 0px 0px 36px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+.main .containerMain .dress .innerContainerDress .boxesDown .boxThreeDress .porogBoxThreeDress {
+  margin: 0;
+  padding: 25px 0px 0px 0px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48.6px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .dress .innerContainerDress .boxesDown .boxThreeDress .imagePartyDress {
+  margin: 0;
+  padding: 0;
+  border-radius: 0px 20px 20px 0px;
+}
+.main .containerMain .dress .innerContainerDress .boxesDown .boxFourDress {
+  background: url("/Components/Images/image 14.png");
+  margin: 0;
+  padding: 25px 240px 211px 36px;
+  border-radius: 20px;
+}
+.main .containerMain .dress .innerContainerDress .boxesDown .boxFourDress .boldBoxFourDress {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48.6px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .customers {
+  margin: 0;
+  padding: 0px 0px 170px 0px;
+}
+.main .containerMain .customers .innerContainerCustomers {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .customers .innerContainerCustomers .contentCustomers {
+  display: flex;
+  margin: 0;
+  padding: 0px 0px 40px 0px;
+  justify-content: space-between;
+}
+.main .containerMain .customers .innerContainerCustomers .contentCustomers .boldContentCustomers {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 57.6px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .customers .innerContainerCustomers .contentCustomers .buttonsCustomer {
+  margin: 0;
+  padding: 20px 0px 0px 0px;
+}
+.main .containerMain .customers .innerContainerCustomers .contentCustomers .buttonsCustomer .btnLeftCustomer {
+  margin: 0px 10px 0px 0px;
+  padding: 0;
+  border: none;
+  background-color: white;
+}
+.main .containerMain .customers .innerContainerCustomers .contentCustomers .buttonsCustomer .btnRightCustomer {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: white;
+}
+.main .containerMain .customers .innerContainerCustomers .contentCustomers .buttonsCustomer .btnLeftCustomer:hover {
+  background-color: #858383;
+}
+.main .containerMain .customers .innerContainerCustomers .contentCustomers .buttonsCustomer .btnLeftCustomer:active {
+  background-color: #636363;
+}
+.main .containerMain .customers .innerContainerCustomers .contentCustomers .buttonsCustomer .btnRightCustomer:hover {
+  background-color: #858383;
+}
+.main .containerMain .customers .innerContainerCustomers .contentCustomers .buttonsCustomer .btnRightCustomer:active {
+  background-color: #636363;
+}
+.main .containerMain .customers .innerContainerCustomers .boxesCustomer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 11px;
+}
+.main .containerMain .customers .innerContainerCustomers .boxesCustomer .boxOneCustomer {
+  margin: 0;
+  padding: 28px 32px 50px 32px;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  border-radius: 20px;
+}
+.main .containerMain .customers .innerContainerCustomers .boxesCustomer .boxOneCustomer .innerBoxCustomerOne {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .customers .innerContainerCustomers .boxesCustomer .boxOneCustomer .innerBoxCustomerOne .innerBoxCustomersContentOne {
+  display: flex;
+  margin: 0;
+  padding: 15px 0px 12px 0px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .customers .innerContainerCustomers .boxesCustomer .boxOneCustomer .innerBoxCustomerOne .innerBoxCustomersContentOne .porogInnerBoxCustomers {
+  margin: 0;
+  padding: 3px 4px 0px 0px;
+}
+.main .containerMain .customers .innerContainerCustomers .boxesCustomer .boxOneCustomer .innerBoxCustomerOne .porogBoxCustomersOne {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+.main .containerMain .customers .innerContainerCustomers .boxesCustomer .boxTwoCustomer {
+  margin: 0;
+  padding: 28px 32px;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  border-radius: 20px;
+}
+.main .containerMain .customers .innerContainerCustomers .boxesCustomer .boxTwoCustomer .innerBoxCustomersTwo {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .customers .innerContainerCustomers .boxesCustomer .boxTwoCustomer .innerBoxCustomersTwo .innerBoxCustomersContentTwo {
+  display: flex;
+  margin: 0;
+  padding: 15px 0px 12px 0px;
+}
+.main .containerMain .customers .innerContainerCustomers .boxesCustomer .boxTwoCustomer .innerBoxCustomersTwo .innerBoxCustomersContentTwo .porogInnerBoxCustomers {
+  margin: 0;
+  padding: 3px 4px 0px 0px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .customers .innerContainerCustomers .boxesCustomer .boxTwoCustomer .innerBoxCustomersTwo .porogBoxCustomersTwo {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+.main .containerMain .customers .innerContainerCustomers .boxesCustomer .boxThreeCustomer {
+  margin: 0;
+  padding: 28px 32px;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  border-radius: 20px;
+}
+.main .containerMain .customers .innerContainerCustomers .boxesCustomer .boxThreeCustomer .innerBoxCustomersThree {
+  margin: 0;
+  padding: 0;
+}
+.main .containerMain .customers .innerContainerCustomers .boxesCustomer .boxThreeCustomer .innerBoxCustomersThree .innerBoxCustomersContentThree {
+  display: flex;
+  margin: 0;
+  padding: 15px 0px 12px 0px;
+}
+.main .containerMain .customers .innerContainerCustomers .boxesCustomer .boxThreeCustomer .innerBoxCustomersThree .innerBoxCustomersContentThree .porogInnerBoxCustomers {
+  margin: 0;
+  padding: 3px 4px 0px 0px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+  color: #000000;
+}
+.main .containerMain .customers .innerContainerCustomers .boxesCustomer .boxThreeCustomer .innerBoxCustomersThree .porogBoxCustomersThree {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.footer {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.footer .containerFooter {
+  margin: 0;
+  padding: 0;
+}
+.footer .containerFooter .date {
+  position: relative;
+  margin: 0px 0px 91px 0px;
+  padding: 140px 0px 0px 0px;
+  background-color: #F0F0F0;
+}
+.footer .containerFooter .date .innerContainerDate {
+  margin: 0;
+  padding: 0;
+}
+.footer .containerFooter .date .innerContainerDate .dateInnerBox {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 0px 0px 108px;
+  padding: 36px 64px;
+  gap: 212px;
+  position: absolute;
+  background-color: #000000;
+  border-radius: 20px;
+  z-index: 1px;
+  top: -90px;
+}
+.footer .containerFooter .date .innerContainerDate .dateInnerBox .contentInnerBoxDate {
+  margin: 0;
+  padding: 10px 0px 0px 0px;
+}
+.footer .containerFooter .date .innerContainerDate .dateInnerBox .contentInnerBoxDate .boldInnerBoxDate {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 45px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.footer .containerFooter .date .innerContainerDate .dateInnerBox .inputInnerBoxDate {
+  margin: 0;
+  padding: 0;
+}
+.footer .containerFooter .date .innerContainerDate .dateInnerBox .inputInnerBoxDate .logoEmailInput {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  z-index: 1px;
+}
+.footer .containerFooter .date .innerContainerDate .dateInnerBox .inputInnerBoxDate .inputEmail {
+  position: relative;
+  margin: 0;
+  padding: 12px 124px 14px 16px;
+  border-radius: 62px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.4);
+}
+.footer .containerFooter .date .innerContainerDate .dateInnerBox .inputInnerBoxDate .submit {
+  margin: 14px 0px 0px 0px;
+  padding: 12px 127px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.6px;
+  text-align: left;
+  color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 62px;
+  border: none;
+}
+.footer .containerFooter .date .innerContainerDate .dateInnerBox .inputInnerBoxDate .submit:hover {
+  background-color: #bdbdbd;
+  color: #000000;
+}
+.footer .containerFooter .date .innerContainerDate .dateInnerBox .inputInnerBoxDate .submit:active {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  justify-items: center;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0px 0px 50px 0px;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentLogoShopDate {
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentLogoShopDate .boldIconsFooter {
+  margin: 0;
+  padding: 0;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentLogoShopDate .boldIconsFooter .linkShopIconFooter {
+  margin: 0;
+  padding: 0;
+  font-size: 33.45px;
+  font-weight: 800;
+  line-height: 40.15px;
+  text-align: left;
+  color: #000000;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentLogoShopDate .porogContentBoxUp {
+  margin: 0;
+  padding: 25px 0px 35px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #858383;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentLogoShopDate .logosPlatforms {
+  margin: 0;
+  padding: 0;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentLogoShopDate .logosPlatforms .logoTwitter {
+  margin: 0px 12px 0px 0px;
+  padding: 0;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentLogoShopDate .logosPlatforms .logoFacebook {
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgba(148, 148, 148, 0.4);
+  border-radius: 50%;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentLogoShopDate .logosPlatforms .logoInstagram {
+  margin: 0px 12px 0px 12px;
+  padding: 0;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0px 0px 0px 113px;
+  gap: 113px;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksCompany {
+  margin: 0;
+  padding: 0;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksCompany .linkCompanyOne {
+  margin: 0;
+  padding: 0px 0px 26px 0px;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksCompany .linkCompanyOne .linkCompanyThree {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #000000;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksCompany .linkCompanyTwo {
+  margin: 0;
+  padding: 0;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksCompany .linkCompanyTwo .linkCompanyFour {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksHelp {
+  margin: 0;
+  padding: 0;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksHelp .linkHelpOne {
+  margin: 0;
+  padding: 0px 0px 26px 0px;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksHelp .linkHelpOne .linkHelpThree {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #000000;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksHelp .linkHelpTwo {
+  margin: 0;
+  padding: 0;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksHelp .linkHelpTwo .linkHelpFour {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksFAQ {
+  margin: 0;
+  padding: 0;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksFAQ .linkFAQOne {
+  margin: 0;
+  padding: 0px 0px 26px 0px;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksFAQ .linkFAQOne .linkFAQThree {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #000000;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksFAQ .linkFAQTwo {
+  margin: 0;
+  padding: 0;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksFAQ .linkFAQTwo .linkFAQFour {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksResources {
+  margin: 0;
+  padding: 0;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksResources .linkResourcesOne {
+  margin: 0;
+  padding: 0px 0px 26px 0px;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksResources .linkResourcesOne .linkResourcesThree {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #000000;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksResources .linkResourcesTwo {
+  margin: 0;
+  padding: 0;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentsFooterUp .contentInfo .linksResources .linkResourcesTwo .linkResourcesFour {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .lineFooter {
+  width: 1240px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentFooterDown {
+  margin: 0;
+  padding: 0;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentFooterDown .contentDateShop {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 20px 0px 82px 0px;
+}
+.footer .containerFooter .date .innerContainerDate .contentsFooter .contentFooterDown .contentDateShop .porogDateShop {
+  margin: 0;
+  padding: 12px 610px 0px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.6);
+}/*# sourceMappingURL=Style.css.map */

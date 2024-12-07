@@ -1,0 +1,1832 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, ul, ol{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ body{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Integral CF', sans-serif;
+ }
+
+.header{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+
+.containerSign{
+    display: flex;
+    margin: 0;
+    padding: 9px 0px 10px 544px;
+    background-color: #000000;
+
+.porogSign{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: #FFFFFF;
+
+.spanSign{
+    margin: 0;
+    padding: 0;
+
+.linkSign{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.9px;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+}
+}
+
+.btnSign{
+    margin: 0px 0px 0px 425px;
+    padding: 0;
+    background-color: #000000;
+    border: none;
+
+.logo_x{
+    margin: 0;
+    padding: 0;
+}
+}
+
+.btnSign:hover{
+    background-color: #525252;
+}
+
+.btnSign:active{
+    background-color: #000000;
+}
+}
+
+.containerHeader{
+    margin: 0;
+    padding: 0;
+
+.NavBarShop{
+    margin: 0;
+    padding: 24px 0px;
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+
+.navBurger{
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.iconShopNav{
+    margin: 0;
+    padding: 0;
+
+.linkShopIcon{
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+    color: #000000;
+}
+}
+
+.menuNav{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+.shop{
+    margin: 0px 0px 7px 40px;
+    padding: 0;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #00000099;
+}
+
+.linksShopNav{
+    display: flex;
+    margin: 0;
+    padding: 11px 0px 0px 24px;
+    gap: 24px;
+
+.linkShopFour{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #00000099;
+}
+}
+}
+
+.searchNav{
+    margin: 0;
+    padding: 0px 0px 0px 40px;
+
+.spanNavShop{
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+.logoSearch{
+    margin: 0;
+    padding: 10px 12px 12px 16px;
+    position: absolute;
+}
+
+.logoSearchResponsiv{
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.inputNavShop{
+    margin: 0;
+    padding: 12px 374px 14px 52px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #00000066;
+    border-radius: 62px;
+    border: none;
+    background-color: #F0F0F0;
+}
+}
+}
+
+.iconsNav{
+    margin: 0;
+    padding: 10px 0px 0px 10px;
+}
+}
+}
+}
+}
+
+.main{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+
+.containerMain{
+    margin: 0;
+    padding: 0;
+
+.clothes{
+    position: relative;
+    background: url('/Components/Images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 103px 0px 116px 100px;
+    background-color: #000000;
+
+.contentClothes{
+    margin: 0;
+    padding: 0;
+
+.sarlovClothes{
+    margin: 0;
+    padding: 0;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 64px;
+    text-align: left;
+    color: #000000;
+}
+
+.porogClothes{
+    margin: 0;
+    padding: 32px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #00000099;
+}
+
+.btnClothes{
+    margin: 0;
+    padding: 15px 67px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 62px;
+    border: none;
+}
+
+.btnClothes:hover{
+    background-color: #2e2d2d;
+    color: #FFFFFF;
+}
+
+.btnClothes:active{
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #000000;
+}
+}
+
+.manyClothers{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 48px 0px 0px 0px;
+
+.clothesOne{
+    margin: 0;
+    padding: 0;
+
+.boldClothesBox{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+    color: #000000;
+}
+
+.porogClothesBox{
+    margin: 0;
+    padding: 0px 32px 0px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #00000066;
+}
+}
+
+.clothesTwo{
+    margin: 0;
+    padding: 0 32px;
+
+.boldClothesBoxTwo{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+    color: #000000;
+}
+
+.porogClothesBoxTwo{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #00000066;
+}
+}
+
+.clothesThree{
+    margin: 0;
+    padding: 0px 0px 0px 32px;
+
+.boldClothesBox{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+    color: #000000;
+}
+
+.porogClothesBox{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #00000066;
+}
+}
+}
+
+.innerClothes{
+    position: absolute;
+    margin: 0;
+    padding: 0px 0px 0px 650px;
+    z-index: 1;
+
+.logoStarOne{
+    margin: 0;
+    padding: 215px 0px 0px 0px;
+}
+
+.logoStarTwo{
+    margin: 0;
+    padding: 0px 0px 170px 449px;
+}
+}
+
+.containerImageResponsiv{
+    margin: 0;
+    padding: 0;
+
+.innerImageResponsiv{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.imageResponsivHuman{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+}
+}
+.brends{
+    margin: 0;
+    padding: 30px 102px 42px 100px;
+    background-color: #000000;
+
+.imgaesBrends{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+.versace{
+    margin: 0;
+    padding: 0;
+}
+
+.zara{
+    margin: 0;
+    padding: 0px 0px 0px 100px;
+}
+
+.gucci{
+    margin: 0;
+    padding: 0px 0px 0px 100px;
+}
+
+.prada{
+    margin: 0;
+    padding: 0px 0px 0px 100px;
+}
+
+.kalvin{
+    margin: 0;
+    padding: 0px 0px 0px 100px;
+}
+}
+}
+
+.arrivals{
+    margin: 0;
+    padding: 0px 0px 64px 0px;
+
+.innerArrivals{
+    margin: 0;
+    padding: 0;
+
+.ContentArrivals{
+    margin: 0;
+    padding: 72px 0px 0px 0px;
+    text-align: center;
+
+.boldArrivals{
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 57.6px;
+    text-align: center;
+    color: #000000;
+}
+}
+
+.boxesArrivals{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 55px 0px 0px 0px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+
+.boxOne{
+    margin: 0;
+    padding: 0;
+
+.imageArrivalsBoxOne{
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.porogBoxArrivalsOne{
+    margin: 0;
+    padding: 16px 70px 8px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #000000;
+}
+
+.innerBoxArrivalsOne_stars{
+    display: flex;
+    margin: 0;
+    padding: 0px 0px 8px 0px;
+
+.porogInnerBox{
+    margin: 0;
+    padding: 1px 0px 0px 13px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: #000000;
+}
+
+.spanInnerBoxArrivals{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color:#525252;
+}
+}
+
+.boldBoxArrivalsOne{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+    color: #000000;
+}
+}
+
+.boxTwo{
+    margin: 0;
+    padding: 0;
+
+.imageArrivalsBoxTwo{
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.porogBoxArrivalsTwo{
+    margin: 0;
+    padding: 16px 145px 8px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #000000;
+}
+
+.innerBoxArrivalsTwo_stars{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+.logoStarsTwo{
+    margin: 0;
+    padding: 0px 13px 8px 0px;
+}
+
+.porogInnerBox{
+    margin: 0;
+    padding: 1px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: #000000;
+
+.spanArrivalsInnerBox{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: #525252;
+}
+}
+}
+
+.innerBoxArrivalsResultOne{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+
+.boldResultInnerOne{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+    color: #000000;
+}
+
+.porogResultInnerTwo{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+    text-decoration-line: line-through;
+    text-decoration-skip-ink: none;
+    color: #00000066;
+}
+
+.porogResultInnerThree{
+    align-items: center;
+    margin: 2px 0px 0px 0px;
+    padding: 6px 13px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    text-align: left;
+    color: #FF3333;  
+    border-radius: 62px;  
+    background-color: #FF33331A;
+}
+}
+}
+
+.boxThree{
+    margin: 0;
+    padding: 0;
+
+.imageArrivalsBoxThree{
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.porogBoxArrivalsThree{
+    margin: 0;
+    padding: 16px 144px 8px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #000000;
+}
+
+.innerBoxArrivalsThree_stars{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+.logoStarsThree{
+    margin: 0;
+    padding: 0px 13px 8px 0px;
+}
+
+.porogInnerBox{
+    margin: 0;
+    padding: 1px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: #000000;
+
+.spanBoxArrivalsThree{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: #525252;
+}
+}
+}
+
+.boldBoxThreeArrivals{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+    color: #000000;
+}
+}
+
+.boxFour{
+    margin: 0;
+    padding: 0;
+
+.imageArrivalsBoxFour{
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.porogBoxArrivalsFour{
+    margin: 0;
+    padding: 16px 96px 8px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #000000;
+}
+
+.innerBoxArrivalsFour_stars{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+.logoStarsFour{
+    margin: 0;
+    padding: 0px 13px 8px 0px;
+}
+
+.porogInnerBox{
+    margin: 0;
+    padding: 1px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: #000000;
+    
+.spanArrivalsBoxFour{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: #525252; 
+}
+}
+}
+
+.innerBoxResultFour{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+
+.porogResultInnerOne{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+    color: #000000;
+}
+
+.porogResultInnerTwo{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+    text-decoration-line: line-through;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #00000066;
+}
+
+.porogResultInnerThree{
+    margin: 2px 0px 0px 0px;
+    padding: 6px 13px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    text-align: left;
+    color: #FF3333;
+    background-color: #FF33331A;
+    border-radius: 62px;
+}
+}
+}
+}
+
+.btnArrivalsContainer{
+    text-align: center;
+    margin: 0;
+    padding: 36px 0px 0px 0px;
+
+.innerContainerBTN{
+    margin: 0;
+    padding: 0;
+
+.btnArrivals{
+    margin: 0;
+    padding: 15px 80px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+    color: #000000;
+    border: 1px solid #0000001A;
+    border-radius: 62px;
+    background-color: white;
+}
+
+.btnArrivals:hover{
+    background-color: rgb(226, 217, 217);
+    color: #000000;
+}
+
+.btnArrivals:active{
+    background-color: #000000;
+    color: white;
+}
+}
+}
+}
+}
+
+
+.containerLine{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+.lineArrivals{
+    width: 1240px;
+    margin: 0px 0px 64px 0px;
+    padding: 0;
+    border: 1px solid #0000001A;
+}
+}
+
+.sell{
+    margin: 0;
+    padding: 0;
+
+.innerContainerCell{
+    margin: 0;
+    padding: 0;
+
+.contentSell{
+    margin: 0;
+    padding: 0px 0px 55px 0px;
+    text-align: center;
+
+.boldSellContent{
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 57.6px;
+    text-align: center;
+    color: #000000;
+}
+}
+
+.boxesSell{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+
+.boxSellOne{
+    margin: 0;
+    padding: 0;
+
+.imageSellBoxOne{
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.porogBoxOneSell{
+    margin: 0;
+    padding: 16px 101px 8px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #000000;
+}
+
+.innerBoxOneSell{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+.iconStars{
+    margin: 0;
+    padding: 0px 0px 8px 0px;
+}
+
+.poroInnerBoxOne_sell{
+    margin: 0;
+    padding: 2px 0px 0px 13px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: #000000;
+
+.spanInnerPorogBoxSell{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: #525252;
+}
+}
+}
+
+.innerBoxSellResults{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+
+.boldInnerResultOne{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+    color: #000000;
+}
+
+.porogInnerResultTwo{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+    color: #00000066;
+    text-decoration-line: line-through;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.porogInnerResultThree{
+    margin: 1px 0px 0px 0px;
+    padding: 6px 14px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    text-align: left;
+    color: #FF3333;
+    background-color: #FF33331A;
+    border-radius: 62px;
+}
+}
+}
+
+.boxSellTwo{
+    margin: 0;
+    padding: 0;
+
+.imageBoxTwoSell{
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.porogBoxTwoSell{
+    margin: 0;
+    padding: 16px 69px 8px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #000000;
+}
+
+.innerBoxTwoSell{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+.iconStars{
+    margin: 0;
+    padding: 0px 13px 8px 0px;
+}
+
+.porogInnerBoxTwoSell{
+    margin: 0;
+    padding: 1px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: #000000;
+
+.spanBoxTwoInnerSell{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: #525252;
+}
+}
+}
+
+.boldBoxTwoSell{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+    color: #000000;
+}
+}
+
+.boxSellThree{
+    margin: 0;
+    padding: 0;
+
+.imageBoxThreeSell{
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.porogBoxThreeSell{
+    margin: 0;
+    padding: 16px 56px 8px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #000000;
+}
+
+.innerBoxThreeSell{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+.iconStars{
+    margin: 0;
+    padding: 0px 13px 8px 0px;
+}
+
+.porogInnerBoxThreeSell{
+    margin: 0;
+    padding: 1px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: #000000;
+
+.spanBoxThreeInnerSell{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: #525252;
+}
+}
+}
+
+.boldBoxThreeSell{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+    color: #000000;
+}
+}
+
+.boxSellFour{
+    margin: 0;
+    padding: 0;
+
+.imageBoxTwoSell{
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.porogBoxTwoSell{
+    margin: 0;
+    padding: 16px 110px 8px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #000000;
+}
+
+.innerBoxTwoSell{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+.iconStars{
+    margin: 0;
+    padding: 0px 13px 8px 0px;
+}
+
+.porogInnerBoxTwoSell{
+    margin: 0;
+    padding: 1px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: #000000;
+
+.spanBoxTwoInnerSell{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: #525252;
+}
+}
+}
+
+.boldBoxTwoSell{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+    color: #000000;
+}
+}
+}
+
+.btnSell{
+    text-align: center;
+    margin: 0;
+    padding: 36px 0px 0px 0px;
+
+.btnSelling{
+    margin: 0;
+    padding: 15px 80px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+    color: #000000;
+    border-radius: 62px;
+    border: 1px solid #0000001A;
+}
+
+.btnSelling:hover{
+    background-color: rgb(226, 217, 217);
+    color: #000000;
+}
+
+.btnSelling:active{
+    background-color: #000000;
+    color: white;
+}
+}
+}
+}
+
+.dress{
+    margin: 0;
+    padding: 80px 0px 80px 0px;
+
+.innerContainerDress{
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0F0;
+    border-radius: 40px;
+
+.contentDress{
+    text-align: center;
+    margin: 0;
+    padding: 70px 0px 64px 0px;
+
+.boldContentDress{
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: center;
+    color: #000000;
+}
+}
+
+.boxesUp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 31px;
+
+.boxOneDress{
+    background: url('/Components/Images/image\ 11.png');
+    margin: 0;
+    padding: 25px 251px 211px 36px;
+    background-color: white;
+    border-radius: 20px;
+
+.porogBoxOneDress{
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48.6px;
+    text-align: left;
+    color: #000000;
+}
+}
+
+.boxTwoDress{
+    display: flex;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+
+.porogBoxTwoDress{
+    position: absolute;
+    margin: 0;
+    padding: 25px 0px 0px 36px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48.6px;
+    text-align: left;
+    color: #000000;
+    z-index: 1;
+}
+
+.imageFormalDress{
+    position: relative;
+    margin: 0;
+    padding: 0px 0px 0px 39px;
+    border-radius:20px;
+}
+}
+}
+
+.boxesDown{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0px 76px 0px;
+    gap: 31px;
+
+.boxThreeDress{
+    display: flex;
+    margin: 0;
+    padding: 0px 0px 0px 36px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+
+.porogBoxThreeDress{
+    margin: 0;
+    padding: 25px 0px 0px 0px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48.6px;
+    text-align: left;
+    color: #000000;
+}
+
+.imagePartyDress{
+    margin: 0;
+    padding: 0;
+    border-radius: 0px 20px 20px 0px;
+}
+}
+
+.boxFourDress{
+    background: url('/Components/Images/image\ 14.png');
+    margin: 0;
+    padding: 25px 240px 211px 36px;
+    border-radius: 20px;
+
+.boldBoxFourDress{
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48.6px;
+    text-align: left;
+    color: #000000;
+}
+}
+}
+}
+}
+
+.customers{
+    margin: 0;
+    padding: 0px 0px 170px 0px;
+
+.innerContainerCustomers{
+    margin: 0;
+    padding: 0;
+
+.contentCustomers{
+    display: flex;
+    margin: 0;
+    padding: 0px 0px 40px 0px;
+    justify-content: space-between;
+
+.boldContentCustomers{
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 57.6px;
+    text-align: left;
+    color: #000000;
+}
+
+.buttonsCustomer{
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+
+.btnLeftCustomer{
+    margin: 0px 10px 0px 0px;
+    padding: 0;
+    border: none;
+    background-color: white;
+}
+
+.btnRightCustomer{
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: white;
+}
+
+.btnLeftCustomer:hover{
+    background-color: #858383;
+}
+
+.btnLeftCustomer:active{
+    background-color: #636363;
+}
+
+.btnRightCustomer:hover{
+    background-color: #858383;
+}
+
+.btnRightCustomer:active{
+    background-color: #636363;
+}
+}
+}
+
+.boxesCustomer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 11px;
+
+.boxOneCustomer{
+    margin: 0;
+    padding: 28px 32px 50px 32px;
+    border: 1px solid #0000001A;
+    border-radius: 20px;
+
+.innerBoxCustomerOne{
+    margin: 0;
+    padding: 0;
+
+.innerBoxCustomersContentOne{
+    display: flex;
+    margin: 0;
+    padding: 15px 0px 12px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #000000;
+
+.porogInnerBoxCustomers{
+    margin: 0;
+    padding: 3px 4px 0px 0px;
+}
+}
+
+.porogBoxCustomersOne{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #00000099;
+}
+}
+}
+
+.boxTwoCustomer{
+    margin: 0;
+    padding: 28px 32px;
+    border: 1px solid #0000001A;
+    border-radius: 20px;
+
+.innerBoxCustomersTwo{
+    margin: 0;
+    padding: 0;
+
+.innerBoxCustomersContentTwo{
+    display: flex;
+    margin: 0;
+    padding: 15px 0px 12px 0px;
+
+.porogInnerBoxCustomers{
+    margin: 0;
+    padding: 3px 4px 0px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #000000; 
+}
+}
+
+.porogBoxCustomersTwo{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #00000099;
+}
+}
+}
+
+.boxThreeCustomer{
+    margin: 0;
+    padding: 28px 32px;
+    border: 1px solid #0000001A;
+    border-radius: 20px;
+
+.innerBoxCustomersThree{
+    margin: 0;
+    padding: 0;
+
+.innerBoxCustomersContentThree{
+    display: flex;
+    margin: 0;
+    padding: 15px 0px 12px 0px;
+
+.porogInnerBoxCustomers{
+    margin: 0;
+    padding: 3px 4px 0px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #000000;
+}
+}
+
+.porogBoxCustomersThree{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #00000099;
+}
+}
+}
+}
+}
+}
+}
+}
+
+.footer{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+
+.containerFooter{
+    margin: 0;
+    padding: 0;
+
+.date{
+    position: relative;
+    margin: 0px 0px 91px 0px;
+    padding: 140px 0px 0px 0px;
+    background-color: #F0F0F0;
+
+.innerContainerDate{
+    margin: 0;
+    padding: 0;
+
+.dateInnerBox{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 108px;
+    padding: 36px 64px;
+    gap: 212px;
+    position: absolute;
+    background-color: #000000;
+    border-radius: 20px;
+    z-index: 1px;
+    top: -90px;
+
+.contentInnerBoxDate{
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+
+.boldInnerBoxDate{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+    color: #FFFFFF;
+}
+}
+
+.inputInnerBoxDate{
+    margin: 0;
+    padding: 0;
+
+.logoEmailInput{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    z-index: 1px;
+}
+
+.inputEmail{
+    position: relative;
+    margin: 0;
+    padding: 12px 124px 14px 16px;
+    border-radius: 62px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #00000066;
+}
+
+.submit{
+    margin: 14px 0px 0px 0px;
+    padding: 12px 127px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 62px;
+    border: none;
+}
+
+.submit:hover{
+    background-color: #bdbdbd;
+    color: #000000;
+}
+
+.submit:active{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+}
+}
+
+.contentsFooter{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    justify-items: center;
+    
+.contentsFooterUp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0px 0px 50px 0px;
+
+.contentLogoShopDate{
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+
+.boldIconsFooter{
+    margin: 0;
+    padding: 0;
+
+.linkShopIconFooter{
+    margin: 0;
+    padding: 0;
+    font-size: 33.45px;
+    font-weight: 800;
+    line-height: 40.15px;
+    text-align: left;
+    color: #000000;
+}
+}
+
+.porogContentBoxUp{
+    margin: 0;
+    padding: 25px 0px 35px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #858383;
+}
+
+.logosPlatforms{
+    margin: 0;
+    padding: 0;
+
+.logoTwitter{
+    margin: 0px 12px 0px 0px;
+    padding: 0;
+}
+
+.logoFacebook{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #94949466;
+    border-radius: 50%;
+}
+
+.logoInstagram{
+    margin: 0px 12px 0px 12px;
+    padding: 0;
+}
+}
+}
+
+.contentInfo{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0px 0px 0px 113px;
+    gap: 113px;
+
+.linksCompany{
+    margin: 0;
+    padding: 0;
+
+.linkCompanyOne{
+    margin: 0;
+    padding: 0px 0px 26px 0px;
+
+.linkCompanyThree{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #000000;
+}
+}
+
+.linkCompanyTwo{
+    margin: 0;
+    padding: 0;
+
+.linkCompanyFour{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: #00000099;
+}
+}
+}
+
+.linksHelp{
+    margin: 0;
+    padding: 0;
+
+.linkHelpOne{
+    margin: 0;
+    padding: 0px 0px 26px 0px;
+
+.linkHelpThree{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #000000;
+}
+}
+
+.linkHelpTwo{
+    margin: 0;
+    padding: 0;
+
+.linkHelpFour{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: #00000099;
+}
+}
+}
+
+.linksFAQ{
+    margin: 0;
+    padding: 0;
+
+.linkFAQOne{
+    margin: 0;
+    padding: 0px 0px 26px 0px;
+
+.linkFAQThree{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #000000;
+}
+}
+
+.linkFAQTwo{
+    margin: 0;
+    padding: 0;
+
+.linkFAQFour{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: #00000099;
+}
+}
+}
+
+.linksResources{
+    margin: 0;
+    padding: 0;
+
+.linkResourcesOne{
+    margin: 0;
+    padding: 0px 0px 26px 0px;
+
+.linkResourcesThree{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #000000;
+}
+}
+
+.linkResourcesTwo{
+    margin: 0;
+    padding: 0;
+
+.linkResourcesFour{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: #00000099;
+}
+}
+}
+}
+}
+
+.lineFooter{
+    width: 1240px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #0000001A;
+}
+
+.contentFooterDown{
+    margin: 0;
+    padding: 0;
+
+.contentDateShop{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 20px 0px 82px 0px;
+
+.porogDateShop{
+    margin: 0;
+    padding: 12px 610px 0px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: right;
+    color: #00000099;
+}
+}
+}
+}
+}
+}
+}
+}
